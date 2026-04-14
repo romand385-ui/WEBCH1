@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oswaldo Román Chevrolet San Cristóbal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: linear-gradient(to bottom, #000, #0a0a0a);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #aaa;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 24px;
+      margin: 10px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .whatsapp {
+      background: #25D366;
+      color: #fff;
+    }
+
+    .whatsapp:hover {
+      background: #1ebe5d;
+      transform: scale(1.05);
+    }
+
+    .outline {
+      border: 1px solid #444;
+      color: #fff;
+    }
+
+    .outline:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #111;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin: 0 0 5px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+
+    .floating {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      padding: 16px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Estrena tu Chevrolet</h1>
+  <p>Atención directa en San Cristóbal | Crédito y entrega inmediata</p>
+
+  <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20información" target="_blank">
+    Cotizar ahora
+  </a>
+
+  <a class="btn outline" href="https://www.instagram.com/dhnielroman/" target="_blank">
+    Instagram
+  </a>
+
+  <a class="btn outline" href="https://www.facebook.com/profile.php?id=61571623687627" target="_blank">
+    Facebook
+  </a>
+</header>
+
+<section class="grid">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>Aveo 2026</h3>
+      <p>Económico y accesible</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20Aveo%202026">Cotizar</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>Onix 2026</h3>
+      <p>El más vendido en México</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20Onix%202026">Cotizar</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>Tracker 2026</h3>
+      <p>SUV moderna y equipada</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20Tracker%202026">Cotizar</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>Captiva 2026</h3>
+      <p>Espacio y comodidad familiar</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20Captiva%202026">Cotizar</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>Groove 2026</h3>
+      <p>Diseño juvenil y moderno</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20Groove%202026">Cotizar</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x200" alt="">
+    <div class="card-content">
+      <h3>S10 2026</h3>
+      <p>Pickup potente y resistente</p>
+      <a class="btn whatsapp" href="https://wa.me/5219671385373?text=Hola,%20quiero%20cotizar%20S10%202026">Cotizar</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Oswaldo Román Chevrolet San Cristóbal
+</footer>
+
+<a class="floating" href="https://wa.me/5219671385373" target="_blank">💬</a>
+
+</body>
+</html>
